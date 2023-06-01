@@ -1,0 +1,12 @@
+[package]
+name = "schraper"
+version = "0.1.0"
+authors = ["Kyure_A <github.com/Kyure-A>"]
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+thirtyfour = { version = "0.25.1", optional = true }
+selenium-manager = { git = "https://github.com/SeleniumHQ/selenium", branch = "trunk" }
+tokio = { version = "1", features = ["full"] }
